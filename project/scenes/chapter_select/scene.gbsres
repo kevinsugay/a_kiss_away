@@ -3,7 +3,7 @@
   "id": "7d9324f2-c4f8-4b02-82cc-c05931feaa8b",
   "_index": 3,
   "name": "Chapter Select",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "34b1f5b1-994d-426b-bbef-a84495079919",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -17,29 +17,108 @@
   "y": 256,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "text": [
-          "Chapter Select"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "actorId": "$self$"
       },
-      "id": "1647d825-f520-408e-a2bd-81591d97f186"
+      "id": "5f44fe6c-beb0-46e6-9f59-e74f3819ae55"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 6,
+        "option1": "Prologue",
+        "option2": "Chapter 1",
+        "option3": "Chapter 2",
+        "option4": "Chapter 3",
+        "option5": "Epilogue",
+        "option6": "Return",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "d671c611-7659-4306-9656-d1e8a8f80dc9"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "L0",
+        "choices": 6,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 0,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [],
+        "true1": [],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f6567350-7f68-4a26-b195-b743831fd233",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "6ed0b2bc-2cdc-4a71-b467-bc6c8aa09382"
+          }
+        ],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "28251a77-6358-4220-9374-70903001aa97"
     }
   ],
   "playerHit1Script": [],
