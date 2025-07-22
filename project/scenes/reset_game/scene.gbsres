@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "f9020364-abf3-45dd-9472-87c7f5fa1c9f",
+  "_index": 2,
+  "name": "Reset Game",
+  "backgroundId": "d48f201d-8a65-4d48-87c1-0ef833a8378b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 144,
+  "y": 464,
+  "script": [
+    {
+      "command": "EVENT_CLEAR_DATA",
+      "args": {
+        "saveSlot": 0
+      },
+      "id": "da5929e9-780d-45dc-bebc-b50254646336"
+    },
+    {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {},
+      "id": "aecb4f18-f58b-461e-a686-ceac20b015f6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "113df9a0-38b6-4d66-a9ba-b9819f3c6bf2",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "60a1c9d7-b587-4386-baed-976cf0d615b6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
