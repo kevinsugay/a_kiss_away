@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -16,6 +16,13 @@
   "x": 144,
   "y": 256,
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "514bd877-f866-48ec-aac0-56f1e92613f8"
+    },
     {
       "command": "EVENT_ENGINE_FIELD_SET",
       "args": {
@@ -43,7 +50,7 @@
         "sceneId": "f6567350-7f68-4a26-b195-b743831fd233",
         "x": {
           "type": "number",
-          "value": 10
+          "value": 5
         },
         "y": {
           "type": "number",

@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
@@ -16,6 +16,13 @@
   "x": 144,
   "y": 464,
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1b4a634c-46da-4108-a8b1-b9569258b064"
+    },
     {
       "command": "EVENT_CLEAR_DATA",
       "args": {

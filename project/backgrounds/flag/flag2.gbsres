@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8bec7f75-80ae-4e96-b4a2-d5514f71dd4f",
+  "name": "flag/flag2",
+  "symbol": "bg_flag_flag2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "flag/flag2.png",
+  "tileColors": ""
+}

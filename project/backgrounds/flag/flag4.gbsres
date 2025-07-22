@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4c311dc2-5a31-4508-a4ad-29b2211a750b",
+  "name": "flag/flag4",
+  "symbol": "bg_flag_flag4",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "flag/flag4.png",
+  "tileColors": ""
+}
